@@ -100,3 +100,69 @@
     background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(18,18,18,0.40689779329700626) 34%, rgba(0,6,8,0) 56%);
   }
 }
+
+.second {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  .narrow {
+    width: 33%;
+    background-color: #18f7ef;
+
+    h2 {
+      margin: 50px 70px 0;
+      text-align: left;
+      color: #ffffff;
+      font-size: 62px;
+      font-weight: 700;
+      letter-spacing: 0;
+
+      span {
+      color: #3624ea;
+      }
+    }
+
+    p {
+      color: #3624ea;
+      font-size: 14px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: left;
+      margin: 20px 90px 20px 70px;
+      line-height: 28px;
+    }
+
+    button {
+      width: 210px;
+      height: 60px;
+      border: 3px solid #ffffff;
+      background-color: transparent;
+      margin: 40px 70px;
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 48px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #3624ea;
+    }
+  }
+
+  .wide {
+    width: 66%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    img {
+      width: 50%;
+      height: 50%;
+    }
+    .widephoto {
+      width: 100%;
+    }
+  }
+}
