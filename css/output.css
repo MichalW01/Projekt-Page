@@ -170,4 +170,83 @@
     width: 50vh;
     height: 40vh; }
 
+.bottom {
+  background-image: url("../images/background-bottom.jpg");
+  height: 150vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: fill;
+  position: absolute; }
+  .bottom .split {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 70px 70px; }
+    .bottom .split h2 {
+      width: 700px;
+      height: 400px;
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 100px;
+      text-align: left;
+      padding: 0 70px; }
+    .bottom .split p:first-of-type {
+      width: 700px;
+      height: 190px;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 37px;
+      text-align: left;
+      padding: 20px; }
+  .bottom .logo {
+    width: 70px;
+    height: 70px;
+    margin: 8% auto 0;
+    display: block; }
+  .bottom footer {
+    padding: 4% 10%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between; }
+  .bottom p:last-of-type {
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    letter-spacing: 0vh; }
+  .bottom footer {
+    display: block;
+    margin: 0; }
+    .bottom footer ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 3% auto; }
+    .bottom footer li:first-of-type a {
+      color: #18f7ef; }
+      .bottom footer li:first-of-type a:hover {
+        color: red; }
+    .bottom footer li:hover a {
+      color: #18f7ef; }
+    .bottom footer a {
+      padding: 0 30px;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 70px;
+      text-decoration: none; }
+
 /*# sourceMappingURL=output.css.map */
